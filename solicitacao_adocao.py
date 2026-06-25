@@ -1,6 +1,5 @@
 from estados import EstadoPendente
 
-
 class SolicitacaoAdocao:
 
     def __init__(self, animal, adotante):

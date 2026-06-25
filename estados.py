@@ -1,6 +1,5 @@
 from estado_solicitacao import EstadoSolicitacao
 
-
 class EstadoAprovada(EstadoSolicitacao):
 
     def aprovar(self, solicitacao):
@@ -8,7 +7,6 @@ class EstadoAprovada(EstadoSolicitacao):
 
     def rejeitar(self, solicitacao):
         print("Não pode rejeitar uma solicitação aprovada.")
-
 
 class EstadoRejeitada(EstadoSolicitacao):
 

@@ -1,6 +1,5 @@
 from animal import Animal
 
-
 class Cachorro(Animal):
 
     def __init__(self, id_animal, nome, idade, sexo, raca):

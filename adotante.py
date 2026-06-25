@@ -14,4 +14,3 @@ class Adotante:
             f"CPF: {self.__cpf} | "
             f"Telefone: {self.__telefone}"
         )
-    

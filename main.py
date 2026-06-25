@@ -3,7 +3,6 @@ from adotante import Adotante
 from animal_factory import AnimalFactory
 from solicitacao_adocao import SolicitacaoAdocao
 
-
 abrigo = Abrigo("Patinhas Felizes")
 adotantes = []
 
